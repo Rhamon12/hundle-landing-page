@@ -4,5 +4,5 @@
 }
 
 body {
-    background: url(./images/bg-desktop.svg) var(--violetBlack) no-repeat;
+    background: url(../images/bg-desktop.svg) var(--violetBlack) no-repeat;
 }
