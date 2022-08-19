@@ -1,0 +1,26 @@
+.button {
+    background: white;
+    min-width: 150px;
+    max-width: 20%;
+    text-align: center;
+    padding: 10px 0;
+    color: var(--violetBlack);
+    font-size: 1.1rem;
+    border-style: none;
+    border-radius: 1.5rem;
+    margin-top: 25px;
+    box-shadow: 1px 5px 10px 0px rgba(24, 24, 24, 0.47);
+    transition: 100ms ease-out;
+    cursor: pointer;
+  }
+  
+.button:active{
+    background-color: var(--softMagenta);
+    color: white;
+}
+
+.button:hover {
+    transform: scaleX(1.1) scaleY(1.1);
+    background-color: var(--softMagenta);
+    color: white;
+}

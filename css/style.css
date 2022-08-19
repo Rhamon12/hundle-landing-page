@@ -1,0 +1,8 @@
+@import "reset.css";
+@import "global.css";
+@import "./header/header.css";
+@import "./content/content.css";
+@import "./footer/footer.css";
+@import "./components/buttons.css";
+@import "./components/icons.css";
+@import "adaptative.css";
