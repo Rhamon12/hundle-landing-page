@@ -1,0 +1,23 @@
+.socialIcon {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-right: 10%;
+    margin-bottom: 15px;
+}
+
+.socialIcon a{
+    color: white;
+    font-size: 17px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px 12px;
+    transition: 100ms ease-in-out;
+}
+
+.socialIcon a:hover {
+    color:var(--softMagenta);
+    border-color: var(--softMagenta);
+    font-size: 30px;
+}
+  

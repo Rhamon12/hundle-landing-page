@@ -1,0 +1,42 @@
+.estrutura {
+    display: grid;
+    margin: 1%;
+    grid-template-columns: 1fr 580px;
+    grid-template-areas: 
+    "nav nav" 
+    "content-img intro-side"
+    "footer footer";
+}
+
+.content-img{
+    grid-area: content-img;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-side{
+    grid-area: intro-side;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+  
+.intro-side h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 2.5rem;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+.intro-side p {
+    font-family: "Open Sans", sans-serif;
+    color: rgb(230, 229, 229);
+    font-size: 1.1rem;
+    line-height: 1.5;
+    font-weight: 400;
+    text-align: justify;
+    max-width: 80%;
+}

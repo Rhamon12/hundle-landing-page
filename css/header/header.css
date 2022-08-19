@@ -1,0 +1,12 @@
+.nav {
+    grid-area: nav;
+    margin-bottom: 2%;
+}
+
+.nav img{
+    transition: transform 100ms ease-in-out;
+}
+
+.nav a img:hover {
+    transform: scale(1.1);
+}
