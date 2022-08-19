@@ -1,6 +1,7 @@
 .nav {
     grid-area: nav;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
+    padding-left: 6%;
 }
 
 .nav img{
